@@ -25,14 +25,31 @@ table{
 	border: 1px solid black;
 }
 
-/*footer css*/
-footer {
-   position:absolute;
-    bottom:0;
-   width:100%;
-   height:60px; 
+@media(min-width: 992px){
+	div#table-img>img{
+		padding-left: 40px;
+		float: left;
+		height: 400px;
+		width: 500px;
+	}
+	div#table-img > table{
+		float: right;
+		width: 50%;
+		padding: 5px;
+		margin: 5px;
+	}
 }
 
+
+/*footer css*/
+/*footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px; 
+   padding-top: 500px;
+}
+*/
 .own-footer2 {
 	width: 100%;
     height: 210px;
